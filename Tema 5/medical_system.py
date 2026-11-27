@@ -689,7 +689,7 @@ def main():
             if cita:
                 diagnostico = input("Diagnostico: ")
                 cita.completar(diagnostico)
-                print(f"\n✓ Cita cancelada exitosamente")
+                print(f"\n✓ Cita completada exitosamente")
             else:
                 print("✗ Cita no encontrada")
 
